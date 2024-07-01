@@ -1,26 +1,32 @@
 # CODSOFT-
-This repository contains a Java-based Number Guessing Game implemented using Swing for a graphical user interface (GUI). The game generates a random number between 1 and 100, and the player has to guess the number within 10 attempts. The GUI provides feedback if the guess is too high, too low, or correct. 
-Features
-Random Number Generation: A new random number between 1 and 100 is generated for each round.
-User Input: Users can enter their guesses via a text field.
-Feedback Mechanism: The game provides feedback if the guess is too high, too low, or correct.
-Attempt Tracking: The game tracks the number of attempts and provides a limit of 10 attempts per round.
-Score Keeping: The user's score is tracked across multiple rounds.
-Play Again Option: Users can choose to play another round after completing the current one.
-Graphical User Interface: The game uses Java Swing to provide a user-friendly GUI.
-Prerequisites
-JDK (Java Development Kit)
-Visual Studio Code or any other Java IDE
-Setup and Usage
-Clone the Repository
-git clone https://github.com/yourusername/NumberGuessingGame.git
-cd NumberGuessingGame
-Open the Project in Visual Studio Code
+Java Projects: Number Game, Student Grade Calculator, and ATM Interface
+Task 1: Number Game
+Features:
 
-Open Visual Studio Code.
-Go to File -> Open Folder and select the NumberGuessingGame folder.
-Add the Game Code
+Random Number Generation: Generates a random number between 1 and 100.
+User Interaction: Prompts the user to guess the generated number.
+Feedback Mechanism: Provides feedback (correct, too high, too low) based on the user's guess.
+Gameplay: Allows multiple rounds with a limited number of attempts.
+Score Tracking: Displays the user's score based on attempts or rounds won.
 
-Inside the src folder, create a new file named NumberGuessingGame.java.
-Copy and paste the following code into NumberGuessingGame.java:
-java
+Task 2: Student Grade Calculator
+Functionality:
+
+Input Handling: Takes marks obtained (out of 100) in each subject.
+Total Marks Calculation: Computes the sum of marks obtained in all subjects.
+Average Percentage Calculation: Calculates the average percentage from total marks.
+Grade Assignment: Determines grades based on the average percentage achieved.
+Result Display: Shows total marks, average percentage, and corresponding grade to the user.
+
+Task 3: ATM Interface
+Components:
+
+ATM Class: Represents the ATM machine with options like withdraw, deposit, and check balance.
+User Interface Design: Implements a GUI for user interaction.
+Bank Account Class: Manages the user's bank account, storing the account balance.
+Transaction Handling: Validates user input and ensures transaction integrity (e.g., sufficient balance).
+Feedback Mechanism: Provides user feedback based on transaction success or failure.
+
+Repository Details:
+Explore these Java projects showcasing various concepts including user interaction, data processing, and GUI design. Each project includes detailed code and documentation to understand implementation and usage.
+
